@@ -1,0 +1,10 @@
+# runtime (Streamlit Community Cloud installs this file)
+streamlit>=1.50
+pandas
+numpy
+scipy
+scikit-learn
+nltk
+pymupdf>=1.24.3
+requests
+graphviz

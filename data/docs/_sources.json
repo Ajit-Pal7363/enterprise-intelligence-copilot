@@ -1,0 +1,15 @@
+{
+  "amazon_10k_fy2025.pdf": {
+    "title": "Amazon.com, Inc. Form 10-K (FY2025)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm"
+  },
+  "ecommerce_rules_2020.pdf": {
+    "title": "Consumer Protection (E-Commerce) Rules, 2020 (India)",
+    "url": "https://taxguru.in/corporate-law/consumer-protection-e-commerce-rules-2020.html",
+    "max_x": 575,
+    "start_at": "MINISTRY OF CONSUMER AFFAIRS",
+    "stop_after": "AMIT MEHTA, Jt. Secy.",
+    "numbered_headings": true,
+    "drop": ["Free Download", "DocsMate", "ADVERTISEMENT", "Advertisement"]
+  }
+}

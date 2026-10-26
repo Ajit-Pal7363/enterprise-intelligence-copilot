@@ -1,0 +1,12 @@
+{
+ "total_revenue": 13494400.74,
+ "total_orders": 98199,
+ "top_category": "health_beauty",
+ "biggest_drop_category": "computers_accessories",
+ "biggest_drop_amount": -114709.72,
+ "top_state": "SP",
+ "top_payment_type": "credit_card",
+ "avg_score_late": 2.57,
+ "avg_score_on_time": 4.3,
+ "top_seller_revenue": 229237.63
+}

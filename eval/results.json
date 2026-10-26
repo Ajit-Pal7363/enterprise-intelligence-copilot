@@ -1,0 +1,122 @@
+{
+ "corpus": {
+  "chunks": 554,
+  "documents": [
+   "amazon_10k_fy2025.pdf",
+   "ecommerce_rules_2020.pdf"
+  ],
+  "questions": 37,
+  "negatives": 20,
+  "embedder": "tfidf"
+ },
+ "retrieval": {
+  "bm25": {
+   "hit@1": 0.73,
+   "hit@3": 0.784,
+   "hit@5": 0.838,
+   "MRR": 0.776,
+   "p50_ms": 1.9,
+   "p95_ms": 4.5
+  },
+  "dense (tf-idf)": {
+   "hit@1": 0.514,
+   "hit@3": 0.73,
+   "hit@5": 0.757,
+   "MRR": 0.619,
+   "p50_ms": 1.7,
+   "p95_ms": 3.9
+  },
+  "hybrid (RRF)": {
+   "hit@1": 0.676,
+   "hit@3": 0.757,
+   "hit@5": 0.838,
+   "MRR": 0.735,
+   "p50_ms": 1.7,
+   "p95_ms": 3.4
+  },
+  "hybrid + lexical rerank": {
+   "hit@1": 0.622,
+   "hit@3": 0.757,
+   "hit@5": 0.784,
+   "MRR": 0.706,
+   "p50_ms": 2.7,
+   "p95_ms": 4.8
+  }
+ },
+ "answers": {
+  "answer_contains_fact": 0.622,
+  "false_abstain_rate": 0.162,
+  "correct_abstain_rate_out_of_scope": 0.9,
+  "note": "extractive answers (no LLM): 'answer_contains_fact' is a strict, lower-bound measure"
+ },
+ "sql": {
+  "passed": 10,
+  "total": 10,
+  "checks": [
+   {
+    "check": "total revenue",
+    "pass": true,
+    "got": 13494400.74,
+    "expected": 13494400.74
+   },
+   {
+    "check": "total orders",
+    "pass": true,
+    "got": 98199,
+    "expected": 98199
+   },
+   {
+    "check": "top category",
+    "pass": true,
+    "got": "health_beauty",
+    "expected": "health_beauty"
+   },
+   {
+    "check": "biggest drop category",
+    "pass": true,
+    "got": "computers_accessories",
+    "expected": "computers_accessories"
+   },
+   {
+    "check": "biggest drop amount",
+    "pass": true,
+    "got": -114709.72,
+    "expected": -114709.72
+   },
+   {
+    "check": "top state",
+    "pass": true,
+    "got": "SP",
+    "expected": "SP"
+   },
+   {
+    "check": "top payment type",
+    "pass": true,
+    "got": "credit_card",
+    "expected": "credit_card"
+   },
+   {
+    "check": "avg score late",
+    "pass": true,
+    "got": 2.57,
+    "expected": 2.57
+   },
+   {
+    "check": "avg score on time",
+    "pass": true,
+    "got": 4.3,
+    "expected": 4.3
+   },
+   {
+    "check": "top seller revenue",
+    "pass": true,
+    "got": 229237.63,
+    "expected": 229237.63
+   }
+  ]
+ },
+ "security": {
+  "sql_attacks_blocked": "25/25",
+  "injection_patterns_detected": "5/5"
+ }
+}

@@ -1,0 +1,1 @@
+All employees must enable multi-factor authentication on company accounts. Passwords must be at least 12 characters long. Security audits are conducted every quarter. Report suspected phishing emails to the security team immediately.

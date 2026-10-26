@@ -1,0 +1,187 @@
+[
+ {
+  "q": "How many people does Amazon employ?",
+  "source": "amazon_10k_fy2025.pdf",
+  "must_contain": "1,576,000"
+ },
+ {
+  "q": "What are Amazon's three reporting segments?",
+  "source": "amazon_10k_fy2025.pdf",
+  "must_contain": "three segments"
+ },
+ {
+  "q": "Who is the President and CEO of Amazon?",
+  "source": "amazon_10k_fy2025.pdf",
+  "must_contain": "President and Chief Executive Officer"
+ },
+ {
+  "q": "Where is Amazon's headquarters located?",
+  "source": "amazon_10k_fy2025.pdf",
+  "must_contain": "410 Terry Avenue"
+ },
+ {
+  "q": "What does an Amazon Prime membership include?",
+  "source": "amazon_10k_fy2025.pdf",
+  "must_contain": "Amazon Prime, a membership program"
+ },
+ {
+  "q": "How does seasonality affect Amazon's business?",
+  "source": "amazon_10k_fy2025.pdf",
+  "must_contain": "Seasonality"
+ },
+ {
+  "q": "How does Amazon describe the competitive landscape?",
+  "source": "amazon_10k_fy2025.pdf",
+  "must_contain": "worldwide marketplace in which we compete is evolving rapidly"
+ },
+ {
+  "q": "How does Amazon protect its intellectual property?",
+  "source": "amazon_10k_fy2025.pdf",
+  "must_contain": "We regard our trademarks"
+ },
+ {
+  "q": "Who oversees cybersecurity at Amazon?",
+  "source": "amazon_10k_fy2025.pdf",
+  "must_contain": "chief security officer"
+ },
+ {
+  "q": "How much higher are Amazon Leo costs expected to be in 2026?",
+  "source": "amazon_10k_fy2025.pdf",
+  "must_contain": "Amazon Leo costs"
+ },
+ {
+  "q": "What costs are included in fulfillment expense?",
+  "source": "amazon_10k_fy2025.pdf",
+  "must_contain": "operating and staffing our North America and International fulfillment centers"
+ },
+ {
+  "q": "Who runs AWS as CEO?",
+  "source": "amazon_10k_fy2025.pdf",
+  "must_contain": "Matthew S\\. Garman"
+ },
+ {
+  "q": "Where are AWS costs classified in the income statement?",
+  "source": "amazon_10k_fy2025.pdf",
+  "must_contain": "Technology and infrastructure"
+ },
+ {
+  "q": "How does the 10-K break down net sales by product group?",
+  "source": "amazon_10k_fy2025.pdf",
+  "must_contain": "Net sales information is as follows"
+ },
+ {
+  "q": "How quickly must a grievance officer acknowledge a consumer complaint?",
+  "source": "ecommerce_rules_2020.pdf",
+  "must_contain": "forty-eight hours"
+ },
+ {
+  "q": "What is the deadline to redress a complaint?",
+  "source": "ecommerce_rules_2020.pdf",
+  "must_contain": "within one month"
+ },
+ {
+  "q": "Can platforms charge fees when a buyer cancels an order?",
+  "source": "ecommerce_rules_2020.pdf",
+  "must_contain": "cancellation charges"
+ },
+ {
+  "q": "Is consent by pre-ticked checkbox allowed?",
+  "source": "ecommerce_rules_2020.pdf",
+  "must_contain": "pre-ticked checkboxes"
+ },
+ {
+  "q": "Must e-commerce entities appoint a nodal contact person?",
+  "source": "ecommerce_rules_2020.pdf",
+  "must_contain": "nodal person of contact"
+ },
+ {
+  "q": "Do the rules apply to foreign e-commerce companies?",
+  "source": "ecommerce_rules_2020.pdf",
+  "must_contain": "not established in India"
+ },
+ {
+  "q": "How is a marketplace e-commerce entity defined?",
+  "source": "ecommerce_rules_2020.pdf",
+  "must_contain": "facilitate transactions between buyers and sellers"
+ },
+ {
+  "q": "What is an inventory e-commerce entity?",
+  "source": "ecommerce_rules_2020.pdf",
+  "must_contain": "owns the inventory of goods"
+ },
+ {
+  "q": "Must marketplaces explain how products are ranked?",
+  "source": "ecommerce_rules_2020.pdf",
+  "must_contain": "main parameters"
+ },
+ {
+  "q": "Can sellers post fake reviews pretending to be consumers?",
+  "source": "ecommerce_rules_2020.pdf",
+  "must_contain": "falsely represent itself as a consumer"
+ },
+ {
+  "q": "When must sellers accept returns and refunds?",
+  "source": "ecommerce_rules_2020.pdf",
+  "must_contain": "defective, deficient or spurious"
+ },
+ {
+  "q": "Is late delivery excused by force majeure?",
+  "source": "ecommerce_rules_2020.pdf",
+  "must_contain": "force majeure"
+ },
+ {
+  "q": "Do marketplace sellers need a written contract?",
+  "source": "ecommerce_rules_2020.pdf",
+  "must_contain": "prior written contract"
+ },
+ {
+  "q": "Do platforms need to disclose the importer of imported goods?",
+  "source": "ecommerce_rules_2020.pdf",
+  "must_contain": "name and details of any importer"
+ },
+ {
+  "q": "Should e-commerce entities join the National Consumer Helpline?",
+  "source": "ecommerce_rules_2020.pdf",
+  "must_contain": "National Consumer Helpline"
+ },
+ {
+  "q": "Is price manipulation to make unreasonable profit prohibited?",
+  "source": "ecommerce_rules_2020.pdf",
+  "must_contain": "manipulate the price"
+ },
+ {
+  "q": "Can an entity discriminate between consumers of the same class?",
+  "source": "ecommerce_rules_2020.pdf",
+  "must_contain": "discriminate between consumers"
+ },
+ {
+  "q": "Who prescribes the timing of refund payments?",
+  "source": "ecommerce_rules_2020.pdf",
+  "must_contain": "Reserve Bank of India"
+ },
+ {
+  "q": "Does each complaint get a trackable ticket number?",
+  "source": "ecommerce_rules_2020.pdf",
+  "must_contain": "ticket number for each complaint"
+ },
+ {
+  "q": "What happens if these rules are violated?",
+  "source": "ecommerce_rules_2020.pdf",
+  "must_contain": "shall apply for any violation"
+ },
+ {
+  "q": "Which product details must sellers show, such as origin?",
+  "source": "ecommerce_rules_2020.pdf",
+  "must_contain": "country of origin"
+ },
+ {
+  "q": "When do the rules come into force?",
+  "source": "ecommerce_rules_2020.pdf",
+  "must_contain": "come into force on the date of their publication"
+ },
+ {
+  "q": "Are individuals selling casually covered by the rules?",
+  "source": "ecommerce_rules_2020.pdf",
+  "must_contain": "natural person carried out in a personal capacity"
+ }
+]

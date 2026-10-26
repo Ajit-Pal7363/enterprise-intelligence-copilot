@@ -1,0 +1,8 @@
+-r requirements.txt
+fastapi
+uvicorn
+httpx
+pytest
+# optional, better retrieval (run locally): 
+# fastembed            -> EMBEDDER=fastembed
+# sentence-transformers -> EMBEDDER=st  RERANKER=ce

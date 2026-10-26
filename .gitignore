@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+.env
+.streamlit/secrets.toml
+data/olist.db
+data/query_log.jsonl
